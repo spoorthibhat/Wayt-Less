@@ -1,4 +1,8 @@
 @CHARSET "ISO-8859-1";
+
+body{
+	font-family:Palatino Linotype;
+}
 h1{
 	text-align : center;
 }
@@ -28,6 +32,7 @@ input{
   cursor: pointer;
   width: 40%;
   opacity: 0.9;
+  border-radius: 8px;
 }
 
 .waitlistStatus{
@@ -73,6 +78,7 @@ input{
   cursor: pointer;
   width: 30%;
   opacity: 0.9;
+  border-radius: 8px;
 }
 .cancelBtn:hover {
   background-color: #808080; 
@@ -94,6 +100,7 @@ input{
   opacity: 0.9;
   position : absolute;
   top : 0px;
+  border-radius: 8px;
 }
 
 .optionsBtn{
@@ -108,9 +115,14 @@ input{
   position : absolute;
   top : 0px;
   right : 5px;
+  border-radius: 8px;
 }
 .homeBtn:hover {
   background-color: #000000; 
   color: white;
 }
 
+.optionsBtn:hover {
+  background-color: #000000; 
+  color: white;
+}
