@@ -12,31 +12,30 @@ input{
   background: #f1f1f1;
 }
 
-.reserveSpot{
+.addToWaitlist{
 	width:42%;
 	border: 2px solid #808080;
   border-radius: 5px;
   padding: 10px;
 }
 
-.reserveBtn{
+.addBtn{
 	background-color: #000000;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 40%;
   opacity: 0.9;
 }
 
-.reservationStatus{
+.waitlistStatus{
 	
   position: absolute;
   top: 80px;
   right: 40px;
   width: 50%;
-  height: 100px;
   border: 2px solid #808080;
   border-radius: 5px;
   padding: 10px;
@@ -50,7 +49,7 @@ input{
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 90%;
+  width: 100%;
   opacity: 0.9;
   border-radius: 8px;
 }
@@ -60,7 +59,58 @@ input{
   color: white;
 }
 
-.reserveBtn:hover {
+.addBtn:hover {
   background-color: #808080; 
   color: white;
 }
+
+.cancelBtn, .editBtn{
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+.cancelBtn:hover {
+  background-color: #808080; 
+  color: white;
+}
+.editBtn:hover {
+  background-color: #808080; 
+  color: white;
+}
+
+.homeBtn{
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  opacity: 0.9;
+  position : absolute;
+  top : 0px;
+}
+
+.optionsBtn{
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  opacity: 0.9;
+  position : absolute;
+  top : 0px;
+  right : 5px;
+}
+.homeBtn:hover {
+  background-color: #000000; 
+  color: white;
+}
+
