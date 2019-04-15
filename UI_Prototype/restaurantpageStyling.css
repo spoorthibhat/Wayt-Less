@@ -2,9 +2,17 @@
 
 body{
 	font-family:Palatino Linotype;
+	
+	
 }
 h1{
 	text-align : center;
+}
+
+.appTitle{
+	top : 10px;
+	left : 47%;
+	position: absolute;
 }
 
 input{
@@ -38,7 +46,7 @@ input{
 .waitlistStatus{
 	
   position: absolute;
-  top: 80px;
+  top: 160px;
   right: 40px;
   width: 50%;
   border: 2px solid #808080;
@@ -48,7 +56,7 @@ input{
 
 .selectMenuBtn{
 	
-  background-color: #ff0000;
+  background-color: #ff8000;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -90,7 +98,7 @@ input{
 }
 
 .homeBtn{
-  background-color: #ff0000;
+  background-color: #ff8000;
   color: white;
   padding: 10px 10px;
   margin: 8px 0;
@@ -104,7 +112,7 @@ input{
 }
 
 .optionsBtn{
-  background-color: #ff0000;
+  background-color: #ff8000;
   color: white;
   padding: 10px 10px;
   margin: 8px 0;
