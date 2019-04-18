@@ -1,0 +1,135 @@
+
+body{
+	font-family:Palatino Linotype;
+	
+	
+}
+h1{
+	text-align : center;
+}
+
+.appTitle{
+	top : 10px;
+	left : 47%;
+	position: absolute;
+}
+
+input{
+    width: 80%;
+  padding: 15px;
+  margin: 3px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.addToWaitlist{
+	width:42%;
+	border: 2px solid #808080;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.addBtn{
+	background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.waitlistStatus{
+	
+  position: absolute;
+  top: 160px;
+  right: 40px;
+  width: 50%;
+  border: 2px solid #808080;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.selectMenuBtn{
+	
+  background-color: #ff8000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.selectMenuBtn:hover {
+  background-color: #000000; 
+  color: white;
+}
+
+.addBtn:hover {
+  background-color: #808080; 
+  color: white;
+}
+
+.cancelBtn, .editBtn{
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+.cancelBtn:hover {
+  background-color: #808080; 
+  color: white;
+}
+.editBtn:hover {
+  background-color: #808080; 
+  color: white;
+}
+
+.homeBtn{
+  background-color: #ff8000;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  opacity: 0.9;
+  position : absolute;
+  top : 0px;
+  border-radius: 8px;
+}
+
+.optionsBtn{
+  background-color: #ff8000;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  opacity: 0.9;
+  position : absolute;
+  top : 0px;
+  right : 5px;
+  border-radius: 8px;
+}
+.homeBtn:hover {
+  background-color: #000000; 
+  color: white;
+}
+
+.optionsBtn:hover {
+  background-color: #000000; 
+  color: white;
+}
